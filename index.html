@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>UX Flow</h1>
+					<h3>czyli poskramiania magii buzzwordów <br/> część 1
+					</h3>
+					<!--<h3>Czarownice i 	Hiszpańska Inkwizycja </h3>-->
+
+					<p>
+						<!--<small>Created by <a href="http://fadehelix.blogspot.com">Adam Dziendziel</a> / <a href="http://twitter.com/fadehelix">@fadehelix</a></small>-->
+					</p>
+				</section>
+
+				<!--begin INTRO-->
+				<section>
+					<section>
+						<h2>Czy znacie aplikację, której nie lubicie używać?</h2>
+						<h3 class="fragment fade-in">Ja tak ;p</h3>
+					</section>
+
+					<section>
+						<h4><a href="http://mzkb-b.internetdsl.pl/main.htm">mzkb-b.internetdsl.pl/main.htm</a></h4>
+						<video src="assets/mzkbb_prev.mp4" type="video/mp4" data-autoplay></video>
+					</section>
+
+				</section>
+				<!--end CEL PREZENTACJI-->
+
+				<!--begin Inkwizycja-->
+<!--				<section>
+					<section>
+						<h2>A co, gdybym Wam powiedział, że...</h2>
+					</section>
+					<section>
+						<h2>Hiszpańska Inkwizycja</h2>
+						<p>Nikt nie rozumie o co chodzi</p>
+						<p>Torturują ludzi</p>
+						<p>Są bogaci</p>
+					</section>
+					<section>
+						<h2>Czarownice</h2>
+						<p>Żyją pośród zwykłych ludzi</p>
+						<p>Służą im w potrzebie</p>
+						<p>Są ubogie</p>
+					</section>
+				</section>-->
+				<!--end Inkwizycja-->
+
+				<!--begin DIAGRAM-->
+				<section>
+					<section>
+						<h2>UX flow </h2>
+						<img class="stretch" src="assets/flow.jpg" alt=""/>
+					</section>
+					<section>
+						<h3>Dlaczego?</h3>
+						<p class="grey">(Strategia)</p>
+
+						<div class="one">
+							<h5>Cele produktu - czego chcemy?</h5>
+							<span class="fragment fade-in">Cele biznesowe</span>
+							<span class="fragment fade-in"> / Indentyfikacja marki</span>
+							<span class="fragment fade-in"> / Mierzenie efektu</span>
+						</div>
+						<div class="horizontal-divider"></div>
+						<div class="one">
+							<h5>Potrzeby użytkowników - czego chcą Oni? ;)</h5>
+							<span class="fragment fade-in">Podział użytkowników</span>
+							<span class="fragment fade-in"> / Testy użyteczności</span>
+							<span class="fragment fade-in"> / Persony</span>
+
+						</div>
+					</section>
+					<section>
+						<h3>Co?</h3>
+						<p class="grey">(Zakres)</p>
+						<div class="one-two">Specyfikacja funkcjonalna</div>
+						<div class="vertical-divider">&nbsp;</div>
+						<div class="one-two">Wymagana zawartość</div>
+					</section>
+					<section>
+						<h3>Forma</h3>
+						<p class="grey">(Struktura)</p>
+						<div class="one-two">Projektowanie interakcji</div>
+						<div class="vertical-divider">&nbsp;</div>
+						<div class="one-two">Architektura informacji</div>
+					</section>
+					<section>
+						<h3>Skeleton</h3>
+						<div class="one-two">Interface Design</div>
+						<div class="vertical-divider">&nbsp;</div>
+						<div class="one-two">Navigation Design</div>
+						<div class="horizontal-divider"></div>
+						<div class="one">Information Design</div>
+					</section>
+					<section>
+						<h3>Surface</h3>
+						<div class="one">Sensory Design</div>
+					</section>
+				</section>
+				<!--end DIAGRAM-->
+
+				<!--begin -->
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

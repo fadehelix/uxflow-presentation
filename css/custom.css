@@ -1,0 +1,27 @@
+/*
+* Custom styles related for Ux presentation
+*/
+.one {
+    display: block;
+    width: 99%;
+}
+.one-two {
+    display: inline-block;
+    width: 48%;
+}
+section .vertical-divider {
+    border-left: 1px solid #ffffff;
+    display: inline-block;
+    height: 98%;
+    width: 1px;
+}
+section .horizontal-divider {
+    border-bottom: 1px solid #ffffff;
+    height: 1px;
+    margin: 10px 0;
+    width: 99%;
+}
+
+.grey {
+    color: #93a1a1;
+}
