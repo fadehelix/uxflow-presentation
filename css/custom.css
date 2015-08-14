@@ -10,18 +10,24 @@
     width: 48%;
 }
 section .vertical-divider {
-    border-left: 1px solid #ffffff;
+    border-left: 2px solid #999;
     display: inline-block;
     height: 98%;
     width: 1px;
 }
 section .horizontal-divider {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid #999;
     height: 1px;
     margin: 10px 0;
     width: 99%;
 }
 
-.grey {
+.color-grey {
     color: #93a1a1;
+}
+
+.reveal section .buzzwords_cloud {
+    background: none;
+    border: none;
+    box-shadow: none;
 }

@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>UX podstawy</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Prezentacja od podstawach projektowania zorientowanego na użytkownika">
+		<meta name="author" content="Adam Dziendziel">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -42,8 +42,8 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>UX Flow</h1>
-					<h3>czyli poskramiania magii buzzwordów <br/> część 1
+					<h1>UX</h1>
+					<h3>czyli poskramiamy magię buzzwordów
 					</h3>
 					<!--<h3>Czarownice i 	Hiszpańska Inkwizycja </h3>-->
 
@@ -52,8 +52,22 @@
 					</p>
 				</section>
 
-				<!--begin INTRO-->
+				<!--begin kontekst-->
+				<!--
 				<section>
+					<h2>Kim jestem?</h2>
+				</section>
+				-->
+				<!--end kontekst-->
+
+				<!--begin Abut presentation-->
+				<section>
+					<img src="assets/buzzwords.png" alt="" class="buzzwords_cloud"/>
+				</section>
+				<!--end About presentation-->
+
+				<!--begin INTRO-->
+				<!--<section>
 					<section>
 						<h2>Czy znacie aplikację, której nie lubicie używać?</h2>
 						<h3 class="fragment fade-in">Ja tak ;p</h3>
@@ -64,7 +78,7 @@
 						<video src="assets/mzkbb_prev.mp4" type="video/mp4" data-autoplay></video>
 					</section>
 
-				</section>
+				</section>-->
 				<!--end CEL PREZENTACJI-->
 
 				<!--begin Inkwizycja-->
@@ -86,62 +100,223 @@
 					</section>
 				</section>-->
 				<!--end Inkwizycja-->
-
-				<!--begin DIAGRAM-->
 				<section>
+					<h3>The Elements of User Experience</h3>
+					<p>User-centered design for the web and beyond</p>
+				</section>
+				<!--begin DIAGRAM-->
+				<section data-background="#FFF">
 					<section>
-						<h2>UX flow </h2>
 						<img class="stretch" src="assets/flow.jpg" alt=""/>
 					</section>
-					<section>
+					<section data-background="#EBEB90">
 						<h3>Dlaczego?</h3>
-						<p class="grey">(Strategia)</p>
+						<p class="color-grey">(Strategia)</p>
 
 						<div class="one">
 							<h5>Cele produktu - czego chcemy?</h5>
+							<!--
 							<span class="fragment fade-in">Cele biznesowe</span>
 							<span class="fragment fade-in"> / Indentyfikacja marki</span>
 							<span class="fragment fade-in"> / Mierzenie efektu</span>
+							-->
 						</div>
 						<div class="horizontal-divider"></div>
 						<div class="one">
 							<h5>Potrzeby użytkowników - czego chcą Oni? ;)</h5>
+							<!--
 							<span class="fragment fade-in">Podział użytkowników</span>
 							<span class="fragment fade-in"> / Testy użyteczności</span>
 							<span class="fragment fade-in"> / Persony</span>
-
+							-->
 						</div>
 					</section>
-					<section>
+
+					<section data-background="#BDDDB6">
 						<h3>Co?</h3>
-						<p class="grey">(Zakres)</p>
-						<div class="one-two">Specyfikacja funkcjonalna</div>
+						<p class="color-grey">(Zakres)</p>
+						<div class="one-two">Functional Specification</div>
 						<div class="vertical-divider">&nbsp;</div>
-						<div class="one-two">Wymagana zawartość</div>
+						<div class="one-two">Content Requirements</div>
 					</section>
-					<section>
-						<h3>Forma</h3>
-						<p class="grey">(Struktura)</p>
-						<div class="one-two">Projektowanie interakcji</div>
+
+					<section data-background="#F2C2AE">
+						<h3>Jak myślą użytkownicy ?</h3>
+						<p class="color-grey">(Struktura)</p>
+						<div class="one-two">
+							Interaction Design
+							<!--<p class="fragment fade-in">Conceptural model</p>-->
+						</div>
 						<div class="vertical-divider">&nbsp;</div>
-						<div class="one-two">Architektura informacji</div>
+						<div class="one-two">
+							Information Architecture
+							<!--<p class="fragment fade-in">Diagramy</p>-->
+						</div>
 					</section>
-					<section>
-						<h3>Skeleton</h3>
+
+					<section data-background="#DFC8E2">
+						<h3>Czas na wireframes</h3>
+						<p class="color-grey">(Szkielet)</p>
 						<div class="one-two">Interface Design</div>
 						<div class="vertical-divider">&nbsp;</div>
 						<div class="one-two">Navigation Design</div>
 						<div class="horizontal-divider"></div>
 						<div class="one">Information Design</div>
 					</section>
-					<section>
-						<h3>Surface</h3>
+					<section data-background="#BDC7E2">
+						<h3>Wrażenia wizualne</h3>
+						<p class="color-grey">Surface</p>
 						<div class="one">Sensory Design</div>
 					</section>
 				</section>
 				<!--end DIAGRAM-->
 
-				<!--begin -->
+				<!--begin SAMPLE-->
+				<!--<section>
+					<section>
+						<h2>Przykład</h2>
+						<p>Alternatywny rozkład jazdy autobusów</p>
+					</section>
+				</section>-->
+				<!--end SAMPLE -->
+
+				<!--begin Strategy-->
+				<!--<section data-background="#EBEB90">
+					<section>
+						<h3>Strategia</h3>
+					</section>
+					<section>
+						<h4>Jaki jest mój cel?</h4>
+						<ol>
+							<li>Demo do prezentacji</li>
+							<li>Prosty projekt w Ruby on Rails</li>
+							<li><del>Używalny rozkład jazdy na telefonach</del></li>
+						</ol>
+					</section>
+					<section>
+						<h4>Czego chcą użytkownicy?</h4>
+
+						<div class="one">
+							<h5 class="one-two">Podział</h5>
+							<h5 class="one-two">Research</h5>
+						</div>
+						<div class="one-two">
+							<ol>
+								<li>Demografia</li>
+								<li>Psychografia</li>
+							</ol>
+						</div>
+						<div class="one-two">
+						<ol>
+							<li>
+								<a href="https://docs.google.com/forms/d/1ukNnCn-L_dUGMPmgUeYL_FRvx44mQEZWXTc_z_8J2cA/viewform" target="_blank">Ankieta</a> <a href="https://docs.google.com/spreadsheets/d/1eVGCbr80vZJrzx6BXEnyBcIZVkuuF4IpAnKokc_E9ts/edit?usp=sharing" target="_blank"> (Wyniki)</a>
+							</li>
+							<li>Contextual Inquiry</li>
+							<li class="color-grey">Card sorting</li>
+						</ol>
+						</div>
+						<div class="horizontal-divider">&nbsp;</div>
+						<div class="one">
+							<h5>Persony</h5>
+							<a href="assets/persona.png" target="_blank">Przykładowa persona</a>
+						</div>
+					</section>
+					<section>
+						<h4>Misja</h4>
+						<blockquote>Prosty i intuicyjny rozkład jazdy</blockquote>
+					</section>
+				</section>-->
+				<!--end Strategy-->
+
+				<!--begin Scope-->
+				<!--<section data-background="#BDDDB6">
+					<section>
+					<h3>Zakres</h3>
+
+						<ol>
+							<li>Wiemy jakie "ficzery" są najważniejsze</li>
+							<li>Wiemy co jest mniej ważne i czego nie chcemy implementować</li>
+							<li>Brainstorm... brainstorm wiele</li>
+						</ol>
+					</section>
+
+					<section>
+						<h4>Definiujemy wymagania</h4>
+						<ul>
+							<li>Responsywna strona internetowa</li>
+							<li>To ma być czysty rozkład jazdy, a nie klon jakdojade.pl</li>
+							<li>Informacje o zmianach w kursowaniu linii</li>
+							<li>Bardzo szybkie aktualizacje</li>
+							<li>Lista innych autobusów na danym przystanku</li>
+							<li>Logiczna lista numerów autobusów</li>
+							<li>Nacisk na przejrzystość i czytelność</li>
+							<li class="color-grey">User stories</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Specyfikacja funkcjonalna</h4>
+						<ul>
+							<li>Użytkownik wybiera rozkład jazdy na stronie głównej</li>
+							<li>Użytkownik widzi na stronie głównej najważniejsze komunikaty dotyczące zmian w kursowaniu komunikacji</li>
+							<li>Użytkownik widzi informacje o zmianach na stronie wybranej linii</li>
+							<li>Główny tekst jest fontem większym niż 10px</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Wymagania zawartości</h4>
+						<p>Oraz kto za jaki content jest odpowiedzialny</p>
+						<ul>
+							<li>Rozkład jazdy autobusów</li>
+							<li>Komunikaty w postaci boxa nie większego, niż 1000x300px</li>
+						</ul>
+					</section>
+				</section>-->
+				<!--end Scope-->
+
+				<!--start Structure -->
+				<!--<section data-background="#F2C2AE">
+                    <section>
+						<h3>Struktura</h3>
+					</section>
+					<section>
+						<h4>Taniec z użytkownikiem</h4>
+						<p>Conceptual Model</p>
+						<p>Error Handling</p>
+					</section>
+					<section>
+						<h4>Flow informacji</h4>
+					</section>
+					<section>
+						<h4></h4>
+					</section>
+                </section>-->
+				<!--end Structure -->
+
+					<!--<section data-background="#DFC8E2">
+						<h3>Czas na wireframes</h3>
+						<p class="grey">(Szkielet)</p>
+						<div class="one-two">Interface Design</div>
+						<div class="vertical-divider">&nbsp;</div>
+						<div class="one-two">Navigation Design</div>
+						<div class="horizontal-divider"></div>
+						<div class="one">Information Design</div>
+					</section>-->
+					<!--<section data-background="#BDC7E2">
+						<h3>Wrażenia wizualne</h3>
+						<p class="grey">Surface</p>
+						<div class="one">Sensory Design</div>
+					</section>-->
+					
+				<!--begin Finish-->
+				<section>
+					<h4>It's time to diss ;)</h4>
+					<p>@fadehelix</p>
+					<!--<ul>
+						<li><a href="http://www.amazon.com/Elements-User-Experience-User-Centered-Design/dp/0321683684/ref=sr_1_1?s=books&ie=UTF8&qid=1424259430&sr=1-1&keywords=the+elements+of+user+experience">The Elements of User Experience: User-Centered Design for the Web and Beyond</a></li>
+						<li><a href="http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=pd_bxgy_b_img_y">Don't Make Me Think (3rd Edition)</a></li>
+					</ul>-->
+				</section>
+				<!--end Finish-->
 
 			</div>
 
